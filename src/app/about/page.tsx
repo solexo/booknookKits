@@ -9,8 +9,8 @@ export default function AboutPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Link href="/" className="flex items-center gap-2">
-                <img src="/logo.webp" alt="BookNook Kits" className="h-10 w-auto" />
-                <span className="text-2xl font-bold text-amber-800">BookNook Kits</span>
+                <img src="/logo.webp" alt="BookNook Kits" className="h-8 w-auto md:h-10" />
+                <span className="text-lg md:text-2xl font-bold text-amber-800">BookNook Kits</span>
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">

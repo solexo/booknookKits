@@ -10,7 +10,7 @@ export default function Home() {
             <div className="flex items-center">
               <Link href="/" className="flex items-center gap-2">
                 <img src="/logo.webp" alt="BookNook Kits" className="h-10 w-auto" />
-                <span className="text-2xl font-bold text-amber-800">BookNook Kits</span>
+                <span className="text-lg md:text-2xl font-bold text-amber-800">BookNook Kits</span>
               </Link>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -120,7 +120,6 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <video 
               className="w-full rounded-2xl shadow-2xl"
-              controls
               autoPlay
               loop
               muted
