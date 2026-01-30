@@ -48,7 +48,7 @@ export default function Home() {
       <section className="relative bg-gradient-to-br from-amber-100 via-orange-50 to-amber-50 py-20 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <img src="/logo.webp" alt="BookNook Kits" className="w-[1000px] h-[1000px] max-w-full mx-auto mb-6" />
+            <img src="/logo.webp" alt="BookNook Kits" className="w-[300px] h-[300px] md:w-[500px] md:h-[500px] lg:w-[1000px] lg:h-[1000px] max-w-full mx-auto mb-6" />
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               Create Magical Book Nooks
             </h1>
