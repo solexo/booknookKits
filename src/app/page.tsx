@@ -121,6 +121,10 @@ export default function Home() {
             <video 
               className="w-full rounded-2xl shadow-2xl"
               controls
+              autoPlay
+              loop
+              muted
+              playsInline
               poster="/home.webp"
             >
               <source 
