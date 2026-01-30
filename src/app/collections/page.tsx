@@ -34,7 +34,7 @@ export default function CollectionsPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Link href="/" className="flex items-center gap-2">
-                <img src="/logo.webp" alt="BookNook Kits" className="w-[1000px] h-[1000px] max-w-full" />
+                <img src="/logo.webp" alt="BookNook Kits" className="h-10 w-auto" />
                 <span className="text-lg md:text-2xl font-bold text-amber-800">BookNook Kits</span>
               </Link>
             </div>
