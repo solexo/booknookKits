@@ -108,6 +108,31 @@ export default function Home() {
         </div>
       </section>
 
+      {/* How It Works - Video Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
+            See How It Works
+          </h2>
+          <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12">
+            Watch our video to see how easy it is to create your own magical book nook
+          </p>
+          <div className="max-w-4xl mx-auto">
+            <video 
+              className="w-full rounded-2xl shadow-2xl"
+              controls
+              poster="/home.webp"
+            >
+              <source 
+                src="https://video.aliexpress-media.com/play/u/ae_sg_item/2215834394668/p/1/e/6/t/10301/5000278254653.mp4?from=chrome&definition=h265" 
+                type="video/mp4" 
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+
       {/* Trust Signals */}
       <section className="bg-white py-8 border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
